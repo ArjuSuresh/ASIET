@@ -1,52 +1,29 @@
-#include<stdbool.h>
 #include<stdio.h>
-void swap(int*xp,int*yp)
+void main()
 {
- int temp=*xp;
- *xp=*yp;
- *yp=temp;
-}
-
-void bubbleSort(int arr[],int n)
-{
-  int i,j;
-  bool swapped;
-  for(i=0;i<n-1;i++)
-  {
-   swapped=false;
-    for(j=0;j<n-i-1;j++)
-    {
-     if(arr[j]>arr[j+1])
-      {
-       swap(&arr[j],&arr[j+1]);
-       swapped=true;
-      }
-    }
-  }
-}
-void printfArray(int arr[],int size)
-{
- int i;
- for(i=0;i<size;i++)
-  {
-   printf("%d ",arr[i]);
-  }
-}
-
-int main()
-{
-  int arr[50],i,n;
-  printf("enter no of elements");
-  scanf("%d",&n);
-  printf("enter the array elements:");
+        int a[50],temp,n,i,j;
+        printf("enter the limit");
+        scanf("%d",&n);
+        printf("enter the array element");
+        for(i=0;i<n;i++)
+        {
+                scanf("%d",&a[i]);
+        }
+        for(i=0;i<n-1;i++)
+        {
+                for(j=0;j<n-i-1;j++)
+        {        
+                if(a[j]>a[j+1])
+                {
+                        temp=a[j];
+                        a[j]=a[j+1];
+                        a[j+1]=temp;
+                }
+        }
+        }
+         printf("the sorted array is");
   for(i=0;i<n;i++)
-  {
-   scanf("%d",&arr[i]);
-  }
-  bubbleSort(arr,n);
-  printf("Sorted array:\n");
-  printfArray(arr,n);
-  return 0;
+        {
+                printf("%d",a[i]);
+        }
 }
-
-
