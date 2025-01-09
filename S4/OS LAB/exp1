@@ -1,0 +1,181 @@
+student@dl-15:~$ date
+Thursday 09 January 2025 12:03:29 PM IST
+student@dl-15:~$ date +%m
+01
+student@dl-15:~$ date +%d
+09
+student@dl-15:~$ date +%h
+Jan
+student@dl-15:~$ date +%y
+25
+student@dl-15:~$ date +%H
+12
+student@dl-15:~$ date +%M
+04
+student@dl-15:~$ date +%S
+24
+student@dl-15:~$ cal
+    January 2025      
+Su Mo Tu We Th Fr Sa  
+          1  2  3  4  
+ 5  6  7  8  9 10 11  
+12 13 14 15 16 17 18  
+19 20 21 22 23 24 25  
+26 27 28 29 30 31     
+                      
+student@dl-15:~$ cal 3 2005
+     March 2005       
+Su Mo Tu We Th Fr Sa  
+       1  2  3  4  5  
+ 6  7  8  9 10 11 12  
+13 14 15 16 17 18 19  
+20 21 22 23 24 25 26  
+27 28 29 30 31        
+                      
+student@dl-15:~$ cal 2025
+                            2025
+      January               February               March          
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+          1  2  3  4                     1                     1  
+ 5  6  7  8  9 10 11   2  3  4  5  6  7  8   2  3  4  5  6  7  8  
+12 13 14 15 16 17 18   9 10 11 12 13 14 15   9 10 11 12 13 14 15  
+19 20 21 22 23 24 25  16 17 18 19 20 21 22  16 17 18 19 20 21 22  
+26 27 28 29 30 31     23 24 25 26 27 28     23 24 25 26 27 28 29  
+                                            30 31                 
+
+       April                  May                   June          
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+       1  2  3  4  5               1  2  3   1  2  3  4  5  6  7  
+ 6  7  8  9 10 11 12   4  5  6  7  8  9 10   8  9 10 11 12 13 14  
+13 14 15 16 17 18 19  11 12 13 14 15 16 17  15 16 17 18 19 20 21  
+20 21 22 23 24 25 26  18 19 20 21 22 23 24  22 23 24 25 26 27 28  
+27 28 29 30           25 26 27 28 29 30 31  29 30                 
+                                                                  
+
+        July                 August              September        
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+       1  2  3  4  5                  1  2      1  2  3  4  5  6  
+ 6  7  8  9 10 11 12   3  4  5  6  7  8  9   7  8  9 10 11 12 13  
+13 14 15 16 17 18 19  10 11 12 13 14 15 16  14 15 16 17 18 19 20  
+20 21 22 23 24 25 26  17 18 19 20 21 22 23  21 22 23 24 25 26 27  
+27 28 29 30 31        24 25 26 27 28 29 30  28 29 30              
+                      31                                          
+
+      October               November              December        
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+          1  2  3  4                     1      1  2  3  4  5  6  
+ 5  6  7  8  9 10 11   2  3  4  5  6  7  8   7  8  9 10 11 12 13  
+12 13 14 15 16 17 18   9 10 11 12 13 14 15  14 15 16 17 18 19 20  
+19 20 21 22 23 24 25  16 17 18 19 20 21 22  21 22 23 24 25 26 27  
+26 27 28 29 30 31     23 24 25 26 27 28 29  28 29 30 31           
+                      30                                          
+student@dl-15:~$ echo "arjun"
+arjun
+student@dl-15:~$ ls
+Atul           Desktop    Downloads  factorial.sh  google-chrome-stable_current_amd64.deb  mysql-apt-config_0.8.30-1_all.deb  palindrome.sh  Pictures  snap    Templates
+calculator.sh  Documents  even.sh    file          Music                                   NIMA_46                            pallin.sh      Public    sum.sh  Videos
+student@dl-15:~$ ls -l
+total 108868
+drwxrwxr-x 3 student student      4096 Dec 30 11:09 Atul
+-rwxrwxr-x 1 student student       426 Dec 19 11:50 calculator.sh
+drwxr-xr-x 2 student student      4096 Oct 30 11:46 Desktop
+drwxr-xr-x 2 student student      4096 Nov 11 09:49 Documents
+drwxr-xr-x 2 student student      4096 Jan  4 10:31 Downloads
+-rwxrwxr-x 1 student student       119 Dec 19 11:09 even.sh
+-rwxrwxr-x 1 student student       183 Dec 19 11:29 factorial.sh
+-rw-rw-r-- 1 student student        13 Jan  4 11:28 file
+-rw-r--r-- 1 root    root    111384404 Oct 29 06:24 google-chrome-stable_current_amd64.deb
+drwxr-xr-x 2 student student      4096 Oct 30 21:51 Music
+-rw-r--r-- 1 root    root        18200 Apr 23  2024 mysql-apt-config_0.8.30-1_all.deb
+drwxrwxr-x 2 student student      4096 Jan  4 12:02 NIMA_46
+-rwxrwxr-x 1 student student       208 Jan  9 11:04 palindrome.sh
+-rwxrwxr-x 1 student student       230 Dec 19 11:59 pallin.sh
+drwxr-xr-x 3 student student      4096 Nov  4 09:36 Pictures
+drwxr-xr-x 2 student student      4096 Oct 30 21:51 Public
+drwx------ 6 student student      4096 Oct 30 11:47 snap
+-rwxrwxr-x 1 student student       161 Dec 19 12:05 sum.sh
+drwxr-xr-x 2 student student      4096 Oct 30 21:51 Templates
+drwxr-xr-x 2 student student      4096 Oct 30 21:51 Videos
+student@dl-15:~$ ls -t
+palindrome.sh  file       Atul    pallin.sh      factorial.sh  Documents  Music   Templates  snap     google-chrome-stable_current_amd64.deb
+NIMA_46        Downloads  sum.sh  calculator.sh  even.sh       Pictures   Public  Videos     Desktop  mysql-apt-config_0.8.30-1_all.deb
+student@dl-15:~$ ls -u
+NIMA_46  Atul          palindrome.sh  Videos  Pictures   Desktop    snap    file     calculator.sh  mysql-apt-config_0.8.30-1_all.deb
+Public   factorial.sh  Templates      Music   Documents  Downloads  sum.sh  even.sh  pallin.sh      google-chrome-stable_current_amd64.deb
+student@dl-15:~$ ls [a-m]*
+calculator.sh  even.sh  factorial.sh  file  google-chrome-stable_current_amd64.deb  mysql-apt-config_0.8.30-1_all.deb
+student@dl-15:~$ ls [f]*
+factorial.sh  file
+student@dl-15:~$ man cat
+student@dl-15:~$ whoami
+student
+student@dl-15:~$ uptime
+ 12:09:15 up  2:15,  1 user,  load average: 0.08, 0.12, 0.09
+student@dl-15:~$ uname
+Linux
+student@dl-15:~$ hostname
+dl-15
+student@dl-15:~$ bc
+bc 1.07.1
+Copyright 1991-1994, 1997, 1998, 2000, 2004, 2006, 2008, 2012-2017 Free Software Foundation, Inc.
+This is free software with ABSOLUTELY NO WARRANTY.
+For details type `warranty'. 
+quit
+student@dl-15:~$ cat factorial.sh
+echo "enter the number"
+read n
+if [ $n -eq 0 ] || [ $n -eq 1 ]
+then
+echo "factorial=1"
+else
+fact=1
+while [ $n -gt 0 ]
+do
+fact=$(($fact*$n))
+n=$((n-1))
+done
+echo "factorial= $fact"
+fi
+student@dl-15:~$ cat n.sh a.sh
+echo "hello"
+
+echo " welcome"
+
+student@dl-15:~$ grep echo factorial.sh
+echo "enter the number"
+echo "factorial=1"
+echo "factorial= $fact"
+student@dl-15:~$ rm n.sh
+student@dl-15:~$ touch sample.sh
+student@dl-15:~$ cp factorial.sh sample.sh
+student@dl-15:~$ mv sample.sh new.sh
+student@dl-15:~$ head factorial.sh
+echo "enter the number"
+read n
+if [ $n -eq 0 ] || [ $n -eq 1 ]
+then
+echo "factorial=1"
+else
+fact=1
+while [ $n -gt 0 ]
+do
+fact=$(($fact*$n))
+student@dl-15:~$ tail new.sh
+echo "factorial=1"
+else
+fact=1
+while [ $n -gt 0 ]
+do
+fact=$(($fact*$n))
+n=$((n-1))
+done
+echo "factorial= $fact"
+fi
+student@dl-15:~$ wc -l new.sh
+14 new.sh
+student@dl-15:~$ wc -w new.sh
+37 new.sh
+student@dl-15:~$ wc -c new.sh
+183 new.sh
+student@dl-15:~$ 
+
